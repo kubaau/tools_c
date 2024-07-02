@@ -3,11 +3,7 @@
 #include <stdarg.h>
 #include <stdbool.h>
 #include <stdio.h>
-#ifdef _WIN32
-#include <ext/threads.h>
-#else
 #include <threads.h>
-#endif
 #include "CurrentTime.h"
 #include "FileName.h"
 
