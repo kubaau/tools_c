@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{85EA57F7-E70A-4963-98BE-9758AC0BADE2}</ProjectGuid>
+    <RootNamespace>tools_c_ut</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)..\..\tools_c;$(ProjectDir)..\..;$(ProjectDir)..\..\ext;$(ProjectDir)..\..\tools;$(IncludePath)</IncludePath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <LibraryPath>$(ProjectDir)..\..\ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
+    <OutDir>$(ProjectDir)build\$(Configuration)-$(PlatformName)\</OutDir>
+    <IntDir>$(ProjectDir)temp\$(Configuration)-$(PlatformName)\</IntDir>
+    <TargetName>$(ProjectName)-$(Configuration)-$(PlatformName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(ProjectDir)..\..\tools_c;$(ProjectDir)..\..;$(ProjectDir)..\..\ext;$(ProjectDir)..\..\tools;$(IncludePath)</IncludePath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <LibraryPath>$(ProjectDir)..\..\ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
+    <OutDir>$(ProjectDir)build\$(Configuration)-$(PlatformName)\</OutDir>
+    <IntDir>$(ProjectDir)temp\$(Configuration)-$(PlatformName)\</IntDir>
+    <TargetName>$(ProjectName)-$(Configuration)-$(PlatformName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir)..\..\tools_c;$(ProjectDir)..\..;$(ProjectDir)..\..\ext;$(ProjectDir)..\..\tools;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)..\..\ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <OutDir>$(ProjectDir)build\$(Configuration)-$(PlatformName)\</OutDir>
+    <IntDir>$(ProjectDir)temp\$(Configuration)-$(PlatformName)\</IntDir>
+    <TargetName>$(ProjectName)-$(Configuration)-$(PlatformName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(ProjectDir)..\..\tools_c;$(ProjectDir)..\..;$(ProjectDir)..\..\ext;$(ProjectDir)..\..\tools;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)..\..\ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <OutDir>$(ProjectDir)build\$(Configuration)-$(PlatformName)\</OutDir>
+    <IntDir>$(ProjectDir)temp\$(Configuration)-$(PlatformName)\</IntDir>
+    <TargetName>$(ProjectName)-$(Configuration)-$(PlatformName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <WarningLevel>Level4</WarningLevel>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ForcedIncludeFiles>VSCompatibility.hpp</ForcedIncludeFiles>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>gmock.lib;gtest.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <WarningLevel>Level4</WarningLevel>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ForcedIncludeFiles>VSCompatibility.hpp</ForcedIncludeFiles>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>gmock.lib;gtest.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ForcedIncludeFiles>VSCompatibility.hpp</ForcedIncludeFiles>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>gmock.lib;gtest.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ForcedIncludeFiles>VSCompatibility.hpp</ForcedIncludeFiles>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>gmock.lib;gtest.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Allocs.cpp" />
+    <ClCompile Include="..\src\Args.cpp" />
+    <ClCompile Include="..\src\ArraySize.cpp" />
+    <ClCompile Include="..\src\BitCount.cpp" />
+    <ClCompile Include="..\src\Compare.cpp" />
+    <ClCompile Include="..\src\CreateArray.cpp" />
+    <ClCompile Include="..\src\CurrentTime.cpp" />
+    <ClCompile Include="..\src\CutString.cpp" />
+    <ClCompile Include="..\src\DumpMemory.cpp" />
+    <ClCompile Include="..\src\Either.cpp" />
+    <ClCompile Include="..\src\Endianness.cpp" />
+    <ClCompile Include="..\src\Endl.cpp" />
+    <ClCompile Include="..\src\ErrorChecks.cpp" />
+    <ClCompile Include="..\src\FileCommon.cpp" />
+    <ClCompile Include="..\src\InRange.cpp" />
+    <ClCompile Include="..\src\Iota.cpp" />
+    <ClCompile Include="..\src\Logging.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\MemberOffset.cpp" />
+    <ClCompile Include="..\src\MinMax.cpp" />
+    <ClCompile Include="..\src\Numeric.cpp" />
+    <ClCompile Include="..\src\PrintArray.cpp" />
+    <ClCompile Include="..\src\PrintBacktrace.cpp" />
+    <ClCompile Include="..\src\PtrMagic.cpp" />
+    <ClCompile Include="..\src\Random.cpp" />
+    <ClCompile Include="..\src\RandomChance.cpp" />
+    <ClCompile Include="..\src\RandomContainers.cpp" />
+    <ClCompile Include="..\src\ReadFile.cpp" />
+    <ClCompile Include="..\src\Repeat.cpp" />
+    <ClCompile Include="..\src\Sigaction.cpp" />
+    <ClCompile Include="..\src\SimpleTimer.cpp" />
+    <ClCompile Include="..\src\SplitString.cpp" />
+    <ClCompile Include="..\src\StartsWith.cpp" />
+    <ClCompile Include="..\src\StringEquals.cpp" />
+    <ClCompile Include="..\src\StringToInt.cpp" />
+    <ClCompile Include="..\src\Swap.cpp" />
+    <ClCompile Include="..\src\TaskScheduler.cpp" />
+    <ClCompile Include="..\src\TimeCasts.cpp" />
+    <ClCompile Include="..\src\Timer.cpp" />
+    <ClCompile Include="..\src\TimeUtils.cpp" />
+    <ClCompile Include="..\src\Toggle.cpp" />
+    <ClCompile Include="..\src\ToLower.cpp" />
+    <ClCompile Include="..\src\Unique.cpp" />
+    <ClCompile Include="..\src\WriteFile.cpp" />
+    <ClCompile Include="..\src\ZeroMemory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\tools_c\Allocs.h" />
+    <ClInclude Include="..\..\tools_c\Args.h" />
+    <ClInclude Include="..\..\tools_c\ArraySize.h" />
+    <ClInclude Include="..\..\tools_c\AsyncTask.h" />
+    <ClInclude Include="..\..\tools_c\BitCount.h" />
+    <ClInclude Include="..\..\tools_c\CheckResult.h" />
+    <ClInclude Include="..\..\tools_c\ClockGetTimeWindows.h" />
+    <ClInclude Include="..\..\tools_c\Combine.h" />
+    <ClInclude Include="..\..\tools_c\Compare.h" />
+    <ClInclude Include="..\..\tools_c\CreateArray.h" />
+    <ClInclude Include="..\..\tools_c\CurrentTime.h" />
+    <ClInclude Include="..\..\tools_c\CutString.h" />
+    <ClInclude Include="..\..\tools_c\DefaultRandomEngine.h" />
+    <ClInclude Include="..\..\tools_c\DumpMemory.h" />
+    <ClInclude Include="..\..\tools_c\Either.h" />
+    <ClInclude Include="..\..\tools_c\Endianness.h" />
+    <ClInclude Include="..\..\tools_c\Endl.h" />
+    <ClInclude Include="..\..\tools_c\ErrorChecks.h" />
+    <ClInclude Include="..\..\tools_c\FileCommon.h" />
+    <ClInclude Include="..\..\tools_c\FileName.h" />
+    <ClInclude Include="..\..\tools_c\InRange.h" />
+    <ClInclude Include="..\..\tools_c\Iota.h" />
+    <ClInclude Include="..\..\tools_c\Logging.h" />
+    <ClInclude Include="..\..\tools_c\LoggingDetail.h" />
+    <ClInclude Include="..\..\tools_c\MemberOffset.h" />
+    <ClInclude Include="..\..\tools_c\MinMax.h" />
+    <ClInclude Include="..\..\tools_c\Numeric.h" />
+    <ClInclude Include="..\..\tools_c\Pause.h" />
+    <ClInclude Include="..\..\tools_c\PrintArray.h" />
+    <ClInclude Include="..\..\tools_c\PrintBacktrace.h" />
+    <ClInclude Include="..\..\tools_c\PrintGuru.h" />
+    <ClInclude Include="..\..\tools_c\PrintPikachu.h" />
+    <ClInclude Include="..\..\tools_c\PtrMagic.h" />
+    <ClInclude Include="..\..\tools_c\Random.h" />
+    <ClInclude Include="..\..\tools_c\RandomChance.h" />
+    <ClInclude Include="..\..\tools_c\RandomContainers.h" />
+    <ClInclude Include="..\..\tools_c\Ratios.h" />
+    <ClInclude Include="..\..\tools_c\ReadFile.h" />
+    <ClInclude Include="..\..\tools_c\Repeat.h" />
+    <ClInclude Include="..\..\tools_c\Sigaction.h" />
+    <ClInclude Include="..\..\tools_c\SimpleTimer.h" />
+    <ClInclude Include="..\..\tools_c\SplitString.h" />
+    <ClInclude Include="..\..\tools_c\StartsWith.h" />
+    <ClInclude Include="..\..\tools_c\StringEquals.h" />
+    <ClInclude Include="..\..\tools_c\StringToInt.h" />
+    <ClInclude Include="..\..\tools_c\Swap.h" />
+    <ClInclude Include="..\..\tools_c\TaskScheduler.h" />
+    <ClInclude Include="..\..\tools_c\TimeCasts.h" />
+    <ClInclude Include="..\..\tools_c\Timer.h" />
+    <ClInclude Include="..\..\tools_c\TimeTypedefs.h" />
+    <ClInclude Include="..\..\tools_c\TimeUtils.h" />
+    <ClInclude Include="..\..\tools_c\Toggle.h" />
+    <ClInclude Include="..\..\tools_c\ToLower.h" />
+    <ClInclude Include="..\..\tools_c\Typedefs.h" />
+    <ClInclude Include="..\..\tools_c\Unique.h" />
+    <ClInclude Include="..\..\tools_c\WriteFile.h" />
+    <ClInclude Include="..\..\tools_c\ZeroMemory.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

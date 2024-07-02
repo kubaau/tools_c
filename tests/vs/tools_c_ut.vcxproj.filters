@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\A-D">
+      <UniqueIdentifier>{2e8e6b84-0aff-48e7-81eb-9dbc1f18be24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\E-L">
+      <UniqueIdentifier>{406f8610-3105-4815-b7ef-48a4de81dfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\M-R">
+      <UniqueIdentifier>{565215ad-c789-4182-9e85-fd0417b429f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\W-Z">
+      <UniqueIdentifier>{dad12de0-57aa-4989-a6c9-2afcc6ab469d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\S-V">
+      <UniqueIdentifier>{d6c4a672-528e-4923-80dd-3b5dcc7672aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{33424b30-0a0c-4f07-80fa-87cc9c9d86ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\A-D">
+      <UniqueIdentifier>{cb5af721-9c53-41c3-95a7-bf1242f97075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\E-L">
+      <UniqueIdentifier>{833f7c2b-c410-4528-ac66-cd637321fd17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\M-R">
+      <UniqueIdentifier>{3b531d22-6e33-4964-bf99-12d576ad9035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\S-V">
+      <UniqueIdentifier>{a4d085e1-37f5-4bab-940a-ad571d341503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\W-Z">
+      <UniqueIdentifier>{5462bc79-1ef7-4655-898c-fc6f04219c79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Allocs.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Args.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArraySize.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BitCount.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Compare.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CreateArray.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CurrentTime.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CutString.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DumpMemory.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Either.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Endianness.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Endl.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ErrorChecks.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InRange.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Iota.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Logging.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MemberOffset.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MinMax.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Numeric.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PrintArray.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PrintBacktrace.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PtrMagic.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Random.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RandomChance.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RandomContainers.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ReadFile.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Repeat.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sigaction.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SimpleTimer.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SplitString.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StartsWith.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StringEquals.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StringToInt.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Swap.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TaskScheduler.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TimeCasts.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Timer.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TimeUtils.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ToLower.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Unique.cpp">
+      <Filter>Source Files\W-Z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ZeroMemory.cpp">
+      <Filter>Source Files\W-Z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FileCommon.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WriteFile.cpp">
+      <Filter>Source Files\W-Z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Toggle.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\tools_c\CurrentTime.h">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\CutString.h">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\DefaultRandomEngine.h">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\DumpMemory.h">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Allocs.h">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Args.h">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\ArraySize.h">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\AsyncTask.h">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\BitCount.h">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\CheckResult.h">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\ClockGetTimeWindows.h">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Combine.h">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Compare.h">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\CreateArray.h">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\ErrorChecks.h">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\FileName.h">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\InRange.h">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Iota.h">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Logging.h">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\LoggingDetail.h">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Either.h">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Endianness.h">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Endl.h">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Ratios.h">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\ReadFile.h">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Repeat.h">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\MemberOffset.h">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\MinMax.h">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Numeric.h">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Pause.h">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\PrintArray.h">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\PrintBacktrace.h">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\PrintGuru.h">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\PrintPikachu.h">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\PtrMagic.h">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Random.h">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\RandomChance.h">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\RandomContainers.h">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\TimeUtils.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\ToLower.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Typedefs.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Unique.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Sigaction.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\SimpleTimer.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\SplitString.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\StartsWith.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\StringEquals.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\StringToInt.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Swap.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\TaskScheduler.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\TimeCasts.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Timer.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\TimeTypedefs.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\ZeroMemory.h">
+      <Filter>Header Files\W-Z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\FileCommon.h">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\WriteFile.h">
+      <Filter>Header Files\W-Z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools_c\Toggle.h">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
