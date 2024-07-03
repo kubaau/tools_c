@@ -1,5 +1,7 @@
 #include "MemberOffset.h"
+
 #include "GtestWrapper.hpp"
+#include "VSCompatibility.hpp"
 
 TEST(MemberOffsetC, offsetOfMember)
 {
@@ -19,7 +21,7 @@ TEST(MemberOffsetC, offsetOfMember)
 
     ptrdiff_t ret;
     OFFSET_OF_MEMBER(S, m1, ret);
-    EXPECT_EQ(0, ret);    
+    EXPECT_EQ(0, ret);
     OFFSET_OF_MEMBER(S, m2, ret);
     EXPECT_EQ(8, ret);
     OFFSET_OF_MEMBER(S, m3, ret);
