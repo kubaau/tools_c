@@ -1,9 +1,11 @@
 #pragma once
 
 #ifdef _WIN32
+
 #include <time.h>
+
 #include "Typedefs.h"
-#include "WindowsNoMinMax.hpp"
+#include "tools/WindowsNoMinMax.hpp"
 
 enum
 {
@@ -62,4 +64,5 @@ static inline int clock_gettime(int unused, struct timespec* spec)
     }
     return 0;
 }
+
 #endif
